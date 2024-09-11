@@ -1,0 +1,15 @@
+<meta charset="UTF-8" />
+<script>
+  const ht = prompt("Horas trabalhadas no mês");
+  const vh = prompt("Valor por hora trabalhada");
+  const pD = 15 / 100;
+  const salarioBruto = ht * vh;
+  const tD = pD * salarioBruto;
+  const salarioLiquido = salarioBruto - tD;
+  const desconto = salarioBruto * pD;
+
+  alert(`Horas trabalhadas: ${ht}`);
+  alert(`Valor Do Salario bruto: R$${salarioBruto}`);
+  alert(`Desconto em: R$${desconto}`);
+  alert(`Valor do Salario Liquido: R$${salarioLiquido}`);
+</script>
