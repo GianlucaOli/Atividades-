@@ -1,0 +1,10 @@
+<meta charset="utf-8" />
+<script>
+  var Cigarros = Number(prompt("Quantos cigarros fuma por dia: "));
+  var anos = Number(prompt("Quantos anos fuma: "));
+  const minutos = 10;
+  var totalcigarros = Cigarros * 365 * anos;
+  var perdidos = totalcigarros * 10;
+  var vida = perdidos / (24 * 60);
+  alert(`Total de vida perdida é: ${vida.toFixed(0)}`);
+</script>
